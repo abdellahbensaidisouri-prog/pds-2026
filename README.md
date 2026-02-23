@@ -23,7 +23,9 @@ de la asignatura PDS.
    * [Transparencias - Arquitectura REST](teoria/transparencias/03b-arquitectura-rest.pdf)
    * [Apuntes](teoria/apuntes/arquitectura.pdf) - Incluye Arquitectura Hexagonal y Arquitectura REST
    * [Ejemplo de arquitectura hexagonal](ejemplos/hexagonal-calculo-iva/)
-   
+2. Tema 4: Verificación de software
+  * [Tema 4: Pruebas de software - Transparencias](teoria/transparencias/04-pruebas.pdf)
+
 ### Sesiones
 
 1. Sesión 1 (Semana 19-enero)
@@ -45,6 +47,9 @@ de la asignatura PDS.
 5. Sesión 5 (Semana 16-febrero)
 	  * [Tema 3: Arquitectura REST - Transparencias](teoria/transparencias/03b-arquitectura-rest.pdf)
     * [Apuntes](teoria/apuntes/arquitectura.pdf) - Incluye Arquitectura REST
+6. Sesión 6 (Semana 24-febrero)
+	  * [Tema 4: Pruebas de software - Transparencias](teoria/transparencias/04-pruebas.pdf)
+
 
 ## Prácticas
 
