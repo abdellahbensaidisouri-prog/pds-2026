@@ -58,4 +58,10 @@ public class ProductoRepository implements ProductosRepository {
 		this.productoJpaRepository.delete(productoMapper.toEntity(producto));
 	}
 
+	@Override
+	public List<Producto> filtrarProductos(String filtro) {
+		List<ProductoEntity> listaProductos = this.productoJpaRepository.findByDescripcionContaining(filtro);
+		return listaProductos.stream().map(productoMapper::toModel).toList();
+	}
+
 }

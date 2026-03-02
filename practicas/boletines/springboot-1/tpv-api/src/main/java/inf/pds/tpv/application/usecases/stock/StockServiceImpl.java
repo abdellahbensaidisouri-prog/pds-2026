@@ -86,4 +86,9 @@ public class StockServiceImpl implements StockService {
 
 	}
 
+	@Override
+	public List<Producto> filtrarProductos(String filtro) {
+		return productoPort.filtrarProductos(filtro);
+	}
+
 }

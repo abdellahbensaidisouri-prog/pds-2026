@@ -6,6 +6,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -30,6 +31,7 @@ import inf.pds.tpv.domain.ports.input.stock.commands.EliminarProductoCommand;
 //Construyo la ruta a partir de la base en (application.properties) y el
 // sufijo del endpoint
 @RequestMapping("${tpv.private.api}/stock")
+@Validated
 public class StockEndpoint {
 
 	private static final Logger log = LoggerFactory.getLogger(StockEndpoint.class);
@@ -102,5 +104,16 @@ public class StockEndpoint {
 			return ResponseEntity.status(HttpStatus.BAD_REQUEST).build();
 		}
 	}
+	
+	// End point para devolver los productos que tengan la cadena indicada en filtro
+	// http://localhost:8080/tpv/private/v1.0/stock/producto/filtro
+	@GetMapping("/producto/{filtro}")
+	public ResponseEntity<List<ProductoDTO>> findProducto(@PathVariable String filtro) {
+		//OJO: En este punto habria que validar el parametro "filtro" para evitar que metan datos peligrosos
+		log.info("Filtrando productos por {}", filtro);
+		List<Producto> productos = controladorStock.filtrarProductos(filtro);
+		return ResponseEntity.status(HttpStatus.OK).body(productos.stream().map(productoMapper::toDTO).toList());
+	}
+	
 
 }

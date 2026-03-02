@@ -16,4 +16,6 @@ public interface ProductosRepository {
 
 	public Optional<Producto> obtenerProductoPorId(Long id);
 
+	public List<Producto> filtrarProductos(String filtro);
+
 }

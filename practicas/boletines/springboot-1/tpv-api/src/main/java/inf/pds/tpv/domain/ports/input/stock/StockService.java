@@ -12,6 +12,8 @@ import inf.pds.tpv.domain.ports.input.stock.commands.EliminarProductoCommand;
 public interface StockService {
 
 	List<Producto> obtenerTodosProductos();
+	
+	List<Producto> filtrarProductos(String filtro);
 
 	Producto crearNuevoProducto(CrearProductoCommand cmd);
 
