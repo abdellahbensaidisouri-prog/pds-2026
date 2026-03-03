@@ -24,7 +24,7 @@ de la asignatura PDS.
    * [Apuntes](teoria/apuntes/arquitectura.pdf) - Incluye Arquitectura Hexagonal y Arquitectura REST
    * [Ejemplo de arquitectura hexagonal](ejemplos/hexagonal-calculo-iva/)
 2. Tema 4: Verificación de software
-  * [Tema 4: Pruebas de software - Transparencias](teoria/transparencias/04-pruebas.pdf)
+   * [Tema 4: Pruebas de software - Transparencias](teoria/transparencias/04-pruebas.pdf)
 
 ### Sesiones
 
@@ -48,7 +48,9 @@ de la asignatura PDS.
 	  * [Tema 3: Arquitectura REST - Transparencias](teoria/transparencias/03b-arquitectura-rest.pdf)
     * [Apuntes](teoria/apuntes/arquitectura.pdf) - Incluye Arquitectura REST
 6. Sesión 6 (Semana 24-febrero)
-	  * [Tema 4: Pruebas de software - Transparencias](teoria/transparencias/04-pruebas.pdf)
+	  * [Tema 4: Pruebas de software - Transparencias](teoria/transparencias/04-pruebas.pdf) (actualizadas 3/mar/26)
+6. Sesión 7 (Semana 3-marzo)
+	  * [Tema 4: Pruebas de software - Transparencias](teoria/transparencias/04-pruebas.pdf) (actualizadas 3/mar/26)
 
 
 ## Prácticas
@@ -74,6 +76,9 @@ de la asignatura PDS.
 * Sesión 5 (Semana 23-febrero)
   * Trabajo en el proyecto
   * [Ejemplo de GUI con JavaFX y conexión REST](practicas/ejemplos/tpv) 
+* Sesión 6 (Semana 3-marzo)
+  * Trabajo en el proyecto
+  * [Ver uso de ArchUnit en ejemplo TPV](practicas/ejemplos/tpv) 
 
 ## Proyecto de prácticas
 
