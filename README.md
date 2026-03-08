@@ -82,6 +82,7 @@ de la asignatura PDS.
   * [Ver uso de ArchUnit en ejemplo TPV](practicas/ejemplos/tpv) 
 * Sesión 7 (Semana 9-marzo)
   * Práctica: Pruebas de software
+  * [Transparencias sobre la práctica](practicas/transparencias/Pruebas.pdf) 
   * [Enunciado y recursos del entregable](practicas/boletines/pruebas/)
   * [Enlace a la tarea](https://aulavirtual.um.es/portal/site/1910_G_2025_N_N/tool/cbcb61b4-87ed-48ef-9b93-18001f58894a)
 
