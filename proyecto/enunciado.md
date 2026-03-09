@@ -62,3 +62,4 @@ Se valorará:
 - **27-abril**: Proyecto incluyendo la persistencia, pruebas adicionales y al menos dos características simples.
 - **8-mayo**: Entrega del proyecto
 
+Los hitos parciales (23/03 y 27/04) son simplemente una sugerencia para que cada equipo pueda comprobar el estado de su proyecto. También se sugiere utilizar alguno de estos hitos para pedir al profesor correspondiente una revisión inicial del proyecto.
