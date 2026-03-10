@@ -26,6 +26,10 @@ de la asignatura PDS.
 4. Tema 4: Verificación de software
    * [Tema 4: Pruebas de software - Transparencias](teoria/transparencias/04-pruebas.pdf)
    * [Apuntes](teoria/apuntes/verificacion.pdf) - Incluye pruebas de software (borrador)
+5. Tema 5: Persistencia (mapeo objeto-relacional)
+   * [Tema 5: Persistencia - Transparencias](teoria/transparencias/05-persistencia.pdf)
+   * [Ejemplo JPA](ejemplos/persistencia-biblioteca/)
+   * No hay apuntes de este tema
 
 ### Sesiones
 
@@ -53,7 +57,10 @@ de la asignatura PDS.
 7. Sesión 7 (Semana 3-marzo)
 	  * [Tema 4: Pruebas de software - Transparencias](teoria/transparencias/04-pruebas.pdf) (actualizadas 3/mar/26)
       * [Apuntes](teoria/apuntes/verificacion.pdf) - Pruebas de software
-
+8. Sesión 8 (Semana 9-marzo): 
+      * [Tema 5: Persistencia - Transparencias](teoria/transparencias/05-persistencia.pdf)
+      * [Ejemplo JPA](ejemplos/persistencia-biblioteca/)
+  
 ## Prácticas
 
 * Sesión 1 (Semana 26-enero)
