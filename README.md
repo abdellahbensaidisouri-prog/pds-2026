@@ -60,42 +60,50 @@ de la asignatura PDS.
 8. Sesión 8 (Semana 9-marzo): 
       * [Tema 5: Persistencia - Transparencias](teoria/transparencias/05-persistencia.pdf)
       * [Ejemplo JPA](ejemplos/persistencia-biblioteca/)
+9. Sesión 9 (Semana 16-marzo): 
+      * [Tema 5: Persistencia - Transparencias](teoria/transparencias/05-persistencia.pdf) (actualizadas 17/mar/26)
+      * [Ejemplo UMULingo/Spring](ejemplos/umulingo/)
   
 ## Prácticas
 
-* Sesión 1 (Semana 26-enero)
+* Sesión 2 (Semana 26-enero)
   * [Logging y SAST](practicas/transparencias/logging.pdf) 
   * [Proyecto solución de logging](practicas/ejemplos/PracticaLog) 
-* Sesión 2 (Semana 2-febrero)
+* Sesión 3 (Semana 2-febrero)
   * Seminario de ejercicios sobre DDD
   * [Ejemplo resuelto - Préstamo de libros](practicas/ejercicios/ejemplo-prestamo-libros/) 
   * [Ejercicio - Vigilancias de examen](practicas/ejercicios/vigilancias-examen/) 
   * [Solución - Vigilancias de examen](practicas/ejercicios/vigilancias-examen/vigilancias-solucion-propuesta.pdf) 
-* Sesión 3 (Semana 9-febrero)
+* Sesión 4 (Semana 9-febrero)
   * Seminario de ejercicios sobre DDD
   * [Ejercicio - Aeródromo](practicas/ejercicios/aerodromo/) 
   * [Solución - Aeródromo](practicas/ejercicios/aerodromo/aerodromo-solucion-propuesta.pdf) 
-* Sesión 4 (Semana 16-febrero)
+* Sesión 5 (Semana 16-febrero)
   * Práctica: Introducción a Spring Boot
   * [Transparencias sobre SpringBoot](practicas/transparencias/SpringBoot.pdf)
   * [Enunciado y recursos del entregable](practicas/boletines/springboot-1/) 
   * [Tutorial rápido de Postman](practicas/tutorial/postman) 
   * [Enlace a la tarea](https://aulavirtual.um.es/portal/site/1910_G_2025_N_N/tool/cbcb61b4-87ed-48ef-9b93-18001f58894a)
-* Sesión 5 (Semana 23-febrero)
+* Sesión 6 (Semana 23-febrero)
   * Trabajo en el proyecto
   * [Ejemplo de GUI con JavaFX y conexión REST](practicas/ejemplos/tpv) 
-* Sesión 6 (Semana 3-marzo)
+* Sesión 7 (Semana 3-marzo)
   * Trabajo en el proyecto
   * [Ver uso de ArchUnit en ejemplo TPV](practicas/ejemplos/tpv) 
-* Sesión 7 (Semana 9-marzo)
+* Sesión 8 (Semana 9-marzo)
   * Práctica: Pruebas de software
   * [Transparencias sobre la práctica](practicas/transparencias/Pruebas.pdf) 
   * [Enunciado y recursos del entregable](practicas/boletines/pruebas/)
   * [Enlace a la tarea](https://aulavirtual.um.es/portal/site/1910_G_2025_N_N/tool/cbcb61b4-87ed-48ef-9b93-18001f58894a)
-
+* Sesión 9 (Semana 16-marzo)
+  * Trabajo en el proyecto
+  
 ## Proyecto de prácticas
 
 La información del proyecto que debe realizarse en equipos de tres miembros está disponible [aquí](proyecto).
+
+En [Ejemplo UMULingo/Spring](ejemplos/umulingo/) está disponible un ejemplo completo que se puede usar como referencia.
+
 
 ## Bibliografía
 
