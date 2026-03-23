@@ -323,5 +323,74 @@ List<Libro> findByAutorName(String nombre);
 List<Libro> buscarPorNombreAutor(@Param("nombreAutor") String nombreAutor);
 ```
 
+Para probarlo, crea la siguiente clase:
 
-ç
+```java
+package pds.ejemplos;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
+import jakarta.persistence.CascadeType;
+import jakarta.persistence.EntityManager;
+import jakarta.persistence.PersistenceContext;
+import jakarta.transaction.Transactional;
+import pds.modelo.Admin;
+import pds.modelo.Autor;
+import pds.modelo.Categoria;
+import pds.modelo.Cliente;
+import pds.modelo.Libro;
+import pds.repositorios.AutorRepository;
+import pds.repositorios.LibroRepository;
+import pds.repositorios.UsuarioRepository;
+
+@Component
+public class PersistenciaConRepositorios {
+
+    private final PersistenciaConsultas persistenciaConsultas;
+    @Autowired
+    private AutorRepository autorRepo;
+    @Autowired
+    private LibroRepository libroRepo;
+    @Autowired
+    private UsuarioRepository usuarioRepo;
+
+    PersistenciaConRepositorios(PersistenciaConsultas persistenciaConsultas) {
+        this.persistenciaConsultas = persistenciaConsultas;
+    }
+
+    public void ejecutar() {
+    	anhadirDatos();
+    	consultaPorNombre();
+    }
+    
+    @Transactional
+    public void anhadirDatos() {    	
+    	// Crear datos de prueba
+        Autor author = new Autor("George Orwell");
+        Libro book = new Libro("1984", author);
+        author.addLibro(book);
+        Categoria category = new Categoria("Distópico");
+        book.addCategory(category);
+
+        // Se guardan todos los objetos "de una" porque se han establecido
+        // la propiedad cascade = CascadeType.ALL en las relaciones de Autor y Libro.
+        autorRepo.save(author);
+        
+        Admin admin = new Admin("root", "ALL");
+        usuarioRepo.save(admin);
+        Cliente customer = new Cliente("Juan", "C/Espinardo");
+        usuarioRepo.save(customer);
+    }
+    
+    public void consultaPorNombre() {
+    	List<Libro> librosOrwell = libroRepo.findByAutorName("George Orwell");
+    	System.out.println("Libros de Orwell: " + librosOrwell.size());
+    	for (Libro libro : librosOrwell) {
+			System.out.println(libro.getTitulo());
+		}
+    }
+}
+``
