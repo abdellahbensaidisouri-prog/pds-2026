@@ -133,6 +133,7 @@ public class PersistenciaConsultas {
     @PersistenceContext
     private EntityManager em;
 
+    @Transactional
     public void ejecutar() {
 	   anhadirDatos();
 	   consultarLibrosPorNombre();
@@ -140,7 +141,6 @@ public class PersistenciaConsultas {
 	   consultarPorCategoria();
 	}
 
-    @Transactional
 	public void anhadirDatos() {
     	// Añadir autores
 	    Autor rowling = new Autor("J.K. Rowling");
