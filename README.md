@@ -21,6 +21,7 @@ de la asignatura PDS.
 3. Tema 3: Arquitectura del software
    * [Transparencias - Arquitectura Hexagonal](teoria/transparencias/03a-hexagonal.pdf)
    * [Transparencias - Arquitectura REST](teoria/transparencias/03b-arquitectura-rest.pdf)
+   * [Transparencias - Estilos arquitectónicos (borrador)](teoria/transparencias/03c-estilos-arquitectonicos.pdf)
    * [Apuntes](teoria/apuntes/arquitectura.pdf) - Incluye Arquitectura Hexagonal y Arquitectura REST
    * [Ejemplo de arquitectura hexagonal](ejemplos/hexagonal-calculo-iva/)
 4. Tema 4: Verificación de software (I) - Pruebas
@@ -68,6 +69,9 @@ de la asignatura PDS.
 10. Sesión 10 (Semana 23-marzo): 
       * [Tema 6: Análisis estático - Transparencias](teoria/transparencias/06-analisis-estatico.pdf)
       * [Ejemplos](ejemplos/analisis-estatico/)
+11. Sesión 11 (Semana 13-abril): 
+      * Finalizar tema 6 sobre análisis estático
+      * [Tema 3: Estilos arquitectónicos - Transparencias (borrador)](teoria/transparencias/03c-estilos-arquitectonicos.pdf)
 
 ## Prácticas
 
