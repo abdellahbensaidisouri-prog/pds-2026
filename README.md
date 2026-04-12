@@ -110,6 +110,10 @@ de la asignatura PDS.
   * Práctica: Persistencia (no hay entregable)
   * [Transparencias sobre la práctica](practicas/transparencias/Persistencia.pdf) 
   * [Enunciado y recursos](practicas/boletines/persistencia/)
+* Sesión 11 (Semana 13-abril)
+  * Práctica: Integración continua y análisis estático
+  * [Enunciado y recursos](practicas/boletines/integracion-continua/)
+  * [Enlace a la tarea](https://aulavirtual.um.es/portal/site/1910_G_2025_N_N/tool/cbcb61b4-87ed-48ef-9b93-18001f58894a)
 
   
 ## Proyecto de prácticas
