@@ -26,13 +26,14 @@ de la asignatura PDS.
    * [Ejemplo de arquitectura hexagonal](ejemplos/hexagonal-calculo-iva/)
 4. Tema 4: Verificación de software (I) - Pruebas
    * [Tema 4: Pruebas de software - Transparencias](teoria/transparencias/04-pruebas.pdf)
-   * [Apuntes](teoria/apuntes/verificacion.pdf) - Incluye pruebas de software (borrador)
+   * [Apuntes](teoria/apuntes/verificacion.pdf) - Actualizado 14-abril
 5. Tema 5: Persistencia (mapeo objeto-relacional)
    * [Tema 5: Persistencia - Transparencias](teoria/transparencias/05-persistencia.pdf)
    * [Ejemplo JPA](ejemplos/persistencia-biblioteca/)
    * No hay apuntes de este tema
 6. Tema 6: Verificación de software (II) - Análisis estático
    * [Tema 6: Análisis estático - Transparencias](teoria/transparencias/06-analisis-estatico.pdf)
+   * [Apuntes](teoria/apuntes/verificacion.pdf) - - Actualizado 14-abril
 
 ### Sesiones
 
